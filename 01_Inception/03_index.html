@@ -13,21 +13,14 @@
     <div id="root">
     </div>
 
+    <div id="a_tag"></div>
+
     <!-- ye aa gya CDN se React ke core functionlity ka code -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <!-- ye aa gya CDN se React ke DOM Manipulation ka code -->
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-    <script>
-        // creating h1 tag in React
-        const heading = React.createElement("h1", {}, "Hello ji, from React")
-
-        // React DOM me root bnana  
-        const root = ReactDOM.createRoot(document.getElementById("root"))
-
-        // h1 tag ko div container me display karo
-        root.render(heading)
-    </script>
+    <script src="./App.js"></script>
 </body>
 
 </html>
