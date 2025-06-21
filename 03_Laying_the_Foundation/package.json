@@ -1,0 +1,20 @@
+{
+  "name": "03_laying_the_foundation",
+  "version": "1.0.0",
+  "description": "chapter 3 of Namaste React",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Abhishek Nema",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "reactdom": "^2.0.0"
+  }
+}
