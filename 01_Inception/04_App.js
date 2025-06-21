@@ -5,7 +5,7 @@ const h1 = React.createElement(
   "Hello World!, from your freindly React"
 );
 
-// creating React root
+// creating root container where React will render code logic in DOM
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // converting react element into h1 tag in browser
@@ -19,6 +19,7 @@ const hyperLink = React.createElement(
   "Google"
 );
 
+// creating root container where React will render code logic in DOM
 const a_tag_container = ReactDOM.createRoot(document.getElementById("a_tag"));
 
 a_tag_container.render(hyperLink);
