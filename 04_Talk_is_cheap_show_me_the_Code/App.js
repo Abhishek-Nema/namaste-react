@@ -42,6 +42,22 @@ const Header = () => {
   );
 };
 
+const CardComponent = () => {
+  return (
+    <div className="card-container">
+      <div className="card-img">
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/9/611f45a5-52b7-4ad0-84d7-f605643f46ea_10892.JPG" />
+      </div>
+      <div className="restaurant-details">
+        <h3>Pizza Hut</h3>
+        <h4>4 star</h4>
+        <h4>Biryani, North Indian</h4>
+        <h4>25-30 mins</h4>
+      </div>
+    </div>
+  );
+};
+
 const Body = () => {
   return (
     <div className="body">
@@ -56,14 +72,19 @@ const Body = () => {
         </form>
       </div>
 
-      <div className="card-container">
-        <div className="card-img">
-          <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/9/611f45a5-52b7-4ad0-84d7-f605643f46ea_10892.JPG" />
-        </div>
-        <div className="restaurant-details">
-          <h3>Pizza Hut</h3>
-          <h4>4 star</h4>
-        </div>
+      <div className="card-section">
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
       </div>
     </div>
   );
