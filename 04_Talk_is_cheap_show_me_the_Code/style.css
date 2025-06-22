@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-contianer > img {
+  width: 125px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 95px;
+}
+
+.nav-bar > ul {
+  display: flex;
+  gap: 10px;
+}
+
+ul > li {
+  list-style-type: none;
+  padding: 35px 34px;
+  margin: 0px 10px;
+  font-size: 16px;
+}
+.search-section {
+  margin: 8px 0px;
+  text-align: center;
+}
+
+.search-bar {
+  width: 350px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.search-button {
+  width: 95px;
+  height: 35px;
+  margin: 0px 10px;
+  border-radius: 5px;
+}
+
+.card-container {
+  width: 200px;
+  height: 280px;
+  border: 1px solid red;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.card-img > img {
+  width: 180px;
+}

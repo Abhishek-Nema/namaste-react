@@ -1,0 +1,19 @@
+{
+  "name": "talk_is_cheap_show_me_the_code",
+  "version": "1.0.0",
+  "description": "Chapter 4 of Namaster React course",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Abhishek Nema",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
