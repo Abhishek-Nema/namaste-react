@@ -1,0 +1,20 @@
+{
+  "name": "creating_first_react_website",
+  "version": "1.0.0",
+  "description": "Let's build the food delivery app using react",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "author": "Abhishek Nema",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "reactdom": "^2.0.0"
+  }
+}
